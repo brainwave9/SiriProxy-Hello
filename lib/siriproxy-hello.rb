@@ -2,11 +2,8 @@ require 'cora'
 require 'siri_objects'
 
 #######
-# This is a "hello world" style plugin. It simply intercepts the phrase "text siri proxy" and responds
-# with a message about the proxy being up and running (along with a couple other core features). This 
-# is good base code for other plugins.
-# 
-# Remember to add other plugins to the "config.yml" file if you create them!
+# This is test plugin to see how a plugin works
+# With this plugin you can introduce someone to Siri, who will respond with the person's name
 ######
 
 class SiriProxy::Plugin::Hello < SiriProxy::Plugin
@@ -14,7 +11,7 @@ class SiriProxy::Plugin::Hello < SiriProxy::Plugin
     #if you have custom configuration options, process them here!
   end
 
-  #demonstrate capturing data from the user (e.x. "Siri proxy number 15")
+  #capture greeting and name, example: say hello to john
   listen_for /say (.*) to (.*)/i do |greet, name|
     say "#{greet} #{name}, how are you doing ?"
     
