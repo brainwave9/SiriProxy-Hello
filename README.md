@@ -30,18 +30,16 @@ Siri will say: "hello john, how are you doing ?"
 Installation
 ------------
 
-1. To install SiriProxy-Hello, add the following to your Siri Proxy config.yml file (~/.siriproxy/config.yml):
+To install SiriProxy-Hello, add the following to your Siri Proxy config.yml file (~/.siriproxy/config.yml):
 
-    name: 'Hello'
-    git: 'git://github.com/brainwave9/SiriProxy-Hello.git'
+    - name: 'Hello'
+      git: 'git://github.com/brainwave9/SiriProxy-Hello.git'
 
-2. Stop Siri Proxy (CTRL-C or `killall siriproxy`)
+Stop Siri Proxy (CTRL-C or `killall siriproxy`)
 
-3. Update Siri Proxy
-	`siriproxy update`
+Update Siri Proxy (`siriproxy update`)
 	  
-4. Start Siri Proxy
-	`siriproxy server`
+Start Siri Proxy (`siriproxy server`)
 	
 The SiriProxy-Hello plugin should now be ready for use.
 
