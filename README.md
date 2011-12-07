@@ -15,6 +15,7 @@ Usage
 -----
 
 The currently implemented commands are:
+
 "say ## to %%" - Siri will respond with "## %%, how are you doing ?
 
 
@@ -22,6 +23,7 @@ Example
 -------
 
 You say: "say hello to john"
+
 Siri will say: "hello john, how are you doing ?"
 
 		
@@ -30,9 +32,8 @@ Installation
 
 1. To install SiriProxy-Hello, add the following to your Siri Proxy config.yml file (~/.siriproxy/config.yml):
 
-`  - name: 'Hello'`
-
-`    git: 'git://github.com/brainwave9/SiriProxy-Hello.git'`
+    name: 'Hello'
+    git: 'git://github.com/brainwave9/SiriProxy-Hello.git'
 
 2. Stop Siri Proxy (CTRL-C or `killall siriproxy`)
 
