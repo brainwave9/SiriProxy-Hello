@@ -3,7 +3,7 @@ SiriProxy-Hello
 
 About
 -----
-SiriProxy-Hello is a Siri Proxy plugin that allows you to have Siri say hello to a friend.
+SiriProxy-Hello is a [Siri Proxy](https://github.com/plamoni/SiriProxy) plugin that allows you to have Siri say hello to a friend.
 
 SiriProxy-Hello was created by brainwave9.
 You are free to use, modify, and redistribute this gem as long as you give proper credit to the original author.
